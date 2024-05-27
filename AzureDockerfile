@@ -10,8 +10,8 @@ COPY ./webapp/target/demo.war /usr/local/tomcat/webapps
 
 # (Optional) If you need to expose a port or perform any other setup steps, you can include them here
 
-# Expose the default Tomcat port (8080)
-EXPOSE 8080
+# Expose the default Tomcat port (8090)
+EXPOSE 8090
 
 # Start Tomcat when the container starts
 CMD ["catalina.sh", "run"]
