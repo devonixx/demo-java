@@ -2,7 +2,7 @@
 FROM tomcat:latest
 
 # Copy the demo.war file into the Tomcat webapps directory
-COPY ./webapp/target/demo.war /usr/local/tomcat/webapps
+COPY ./webapp/target/demo.war /var/lib/tomcat/webapps
 
 # (Optional) If you have additional configuration or dependencies, you can include them here
 # For example:
